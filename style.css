@@ -3,3 +3,31 @@ body {
   height: 100%;
   margin: 0;
 }
+h1 {
+  color: red;
+  text-align: center;
+  } 
+  .styled-link {
+    color: grey;
+    text-align: center;
+  }
+  a {
+    padding: 10px;
+  }
+  p {
+    width: 800px;
+  }
+  #details {
+    overflow: hidden;
+  }
+    #details div {
+    width: 25%; 
+    float: left;
+    background-color: lightgray;
+    text-align: center;
+    margin-right: 2%;
+  }
+  
+  #details div:last-child {
+    margin-right: 0;
+  }
